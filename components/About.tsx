@@ -10,7 +10,7 @@ export default function About({}: Props) {
     whileInView={{opacity:1}}
     transition={{duration:1.5}}
      className=" flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-8xl px-10 justify-evenly mx-auto items-center">
-      <h3 className=" absolute top-24 uppercase tracking-[10px] text-gray-500 text-2xl">
+      <h3 className=" absolute top-10 uppercase tracking-[10px] text-gray-500 text-2xl">
         About
       </h3>
       <motion.img
@@ -29,7 +29,7 @@ export default function About({}: Props) {
         //     once:true
         //   }}
 
-        src="https://res.cloudinary.com/rifat1411/image/upload/v1666617008/photos/rifat-df0a1f00f0e157bd459b4d023832bdcd_bks23k.png"
+        src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c29mdHdhcmUlMjBlbmdpbmVlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
         className=" -mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]"
       />
       <div className=" space-y-10 px-0 md:px-10 ">

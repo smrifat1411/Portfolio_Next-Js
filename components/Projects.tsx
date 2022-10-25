@@ -8,11 +8,12 @@ function Projects({}: Props) {
 
   return (
     <div className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0">
-      <h3 className=" absolute top-24 uppercase tracking-[10px] text-gray-500 text-2xl">
+      <h3 className=" absolute top-10 uppercase tracking-[10px] text-gray-500 text-2xl">
         Projects
       </h3>
+     
 
-      <div className="relative w-full flex overflow-x-scroll snap-x snap-mandatory  z-20">
+      <div className=" mt-8 relative w-full flex overflow-x-scroll snap-x snap-mandatory  z-20">
         {projects.map((p, i) => (
           <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen ">
             <motion.img
@@ -26,12 +27,15 @@ function Projects({}: Props) {
             whileInView={{
               opacity:1,y:0
             }}
-              src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?w=900&t=st=1666703921~exp=1666704521~hmac=e6978a0f2d15cd22f5230fdf672206c7ac8d3248fceaddd760d0da14354935fd"
+              src="https://cdn.dribbble.com/users/702789/screenshots/14160476/media/73be226f4990a451cfc905b0217f2d88.png?compress=1&resize=400x300"
               alt=""
               className=" w-[400px] sm:w-[250px] md:w-[400px]"
             />
             <div>
-              <h4 className="text-4xl font-semibold text-center">
+            <h3 className=" text-center mb-6 uppercase tracking-[3px] text-white-500 text-sm">
+       Slide to Watch all Projects
+      </h3>
+              <h4 className="text-4xl font-semibold text-center mb-8">
                 <span className=" underline decoration-green">
                   {" "}
                   Case Study {i + 1} of {projects.length}:
@@ -45,7 +49,8 @@ function Projects({}: Props) {
           </div>
         ))}
       </div>
-      <div className=" w-full absolute top-[30%] bg-green-400 left-0 h-[500px] -skew-y-12" />
+     
+      <div className=" w-full absolute top-[30%] bg-[#3A5361] left-0 h-[500px] -skew-y-12" />
     </div>
   );
 }

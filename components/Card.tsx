@@ -20,7 +20,7 @@ function Card({}: Props) {
     }}
 
     className=' w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object cover object-center' 
-    src="https://res.cloudinary.com/rifat1411/image/upload/v1666617008/photos/rifat-df0a1f00f0e157bd459b4d023832bdcd_bks23k.png" alt="" />
+    src="https://thumbs.dreamstime.com/z/logo-bird-company-icon-business-design-abstract-nature-vector-flying-background-symbol-illustration-template-sky-modern-white-148065023.jpg" alt="" />
 
 
     <div className='px-0 md:px-10'>

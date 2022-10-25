@@ -11,7 +11,7 @@ const Hero = (props: Props) => {
       <BackgroundAnimation />
       <img
         className=" relative rounded-full h-36 w-36 mx-auto object-cover"
-        src="https://res.cloudinary.com/rifat1411/image/upload/v1666617008/photos/rifat-df0a1f00f0e157bd459b4d023832bdcd_bks23k.png"
+        src="https://196034-584727-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/04/Dan-Clark-Software-Engineer-Round.jpg"
         alt=""
       />
       <div className=" z-30">
