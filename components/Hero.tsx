@@ -3,17 +3,26 @@ import { Typewriter } from "react-simple-typewriter";
 import BackgroundAnimation from "./BackgroundAnimation";
 import image1 from "../public/r.png";
 import Link from "next/link";
+import Image from "next/image";
+
 type Props = {};
 
 const Hero = (props: Props) => {
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundAnimation />
-      <img
+      {/* <img
         className=" relative rounded-full h-36 w-36 mx-auto object-cover"
         src="https://196034-584727-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/04/Dan-Clark-Software-Engineer-Round.jpg"
         alt=""
-      />
+      /> */}
+      <div className="relative rounded-full h-36 w-36 mx-auto object-cover">
+        <Image
+          className=" rounded-full "
+          src={image1}
+        ></Image>
+      </div>
+
       <div className=" z-30">
         <h1 className=" text-5xl lg:text-7xl font-semibold px-10">
           <span className="mr-3">
