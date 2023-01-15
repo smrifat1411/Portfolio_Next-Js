@@ -6,10 +6,11 @@ type Props = {};
 export default function About({}: Props) {
   return (
     <motion.div
-    initial={{opacity:0}}
-    whileInView={{opacity:1}}
-    transition={{duration:1.5}}
-     className=" flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-8xl px-10 justify-evenly mx-auto items-center">
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
+      className=" flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-8xl px-10 justify-evenly mx-auto items-center"
+    >
       <h3 className=" absolute top-10 uppercase tracking-[10px] text-gray-500 text-2xl">
         About
       </h3>
@@ -35,11 +36,13 @@ export default function About({}: Props) {
       <div className=" space-y-10 px-0 md:px-10 ">
         <h4 className="text-4xl font-semibold">Some Words About Me</h4>
         <p className="text-base">
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which don't look even slightly believable.
-          If you are going to use a passage of Lorem Ipsum, you need to be sure
-          there isn't anything embarrassing hidden in the middle of text. 
+          I am a passionate engineering student who is looking for an
+          opportunity to be a professional software engineer. I have a strong
+          drive to develop the skills required to meet project milestones. I
+          possess practical job experience on several projects as a remote
+          freelance developer in an EU-based startup. Besides this, I am
+          continuing problem-solving and volunteer works. Recently I joined as a
+          scratch programming mentor in a volunteer organization called BdOSN.
         </p>
       </div>
     </motion.div>
