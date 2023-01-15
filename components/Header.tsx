@@ -23,21 +23,25 @@ const Header = (props: Props) => {
           url="https://youtube.com/channel/UC3o_47hLX7EhhW5btfwdr_Q"
           fgColor="gray"
           bgColor="transparent"
+          target="_blank"
         />
         <SocialIcon
           url="https://gitlab.com/smrifat1411"
           fgColor="gray"
           bgColor="transparent"
+          target="_blank"
         />
         <SocialIcon
           url="https://github.com/smrifat1411"
           fgColor="gray"
           bgColor="transparent"
+          target="_blank"
         />
         <SocialIcon
           url="https://www.linkedin.com/in/smrifat1411/"
           fgColor="gray"
           bgColor="transparent"
+          target="_blank"
         />
       </motion.div>
       <motion.div
